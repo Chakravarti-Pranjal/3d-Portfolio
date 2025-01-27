@@ -46,7 +46,7 @@ const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
   @media (max-width: 960px) {
-    order: 2;
+    order: 1;
     margin-bottom: 30px;
     display: flex;
     gap: 6px;
@@ -60,7 +60,7 @@ const HeroRightContainer = styled.div`
   display: flex;
   justify-content: end;
   @media (max-width: 960px) {
-    order: 1;
+    order: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,7 +256,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Pranjal Chakravarti" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

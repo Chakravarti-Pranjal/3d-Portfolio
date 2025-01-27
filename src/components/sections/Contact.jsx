@@ -136,7 +136,7 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit}>
+        <ContactForm onSubmit={handelSubmit} action="https://api.web3forms.com/submit" method="POST">
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
