@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Chakravarti-Pranjal",
   resume:
-    "https://drive.google.com/file/d/1PIFIF2-dT06dVz37k9ypb3sJeMYXuoY1/view",
+    "https://drive.google.com/file/d/1nzoHWA9RETxqdYrpIpqtn3lqvpM4LtpD/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/pranjal-chakravarti-b14132252/",
   insta: "https://www.instagram.com/pranjal.73si/",
   facebook: "https://www.facebook.com/profile.php?id=100078344825205",
@@ -366,9 +366,9 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 1,
     title: "Students Corners",
-    date: "Jan 2024 - Dec 2023",
+    date: "Jul 2024 - Dec 2024",
     description:
       "All in one Hub for Jobs, Blogs & Mock Tests. Best place to apply for Government Jobs using smart job list. Smart your skills by trending blogs and test series.",
     image:
@@ -379,166 +379,100 @@ export const projects = [
     webapp: "https://studentscorners.com/",
   },
   {
-    id: 9,
+    id: 2,
     title: "Easy Docoments",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+    date: "Aug 2024 - Nov 2024",
+    description: "Easy Docoments is a web application that allows users to create, edit, and share documents online. Users can create documents from scratch or upload existing documents, and they can collaborate with others in real-time. The application is built using React.js, Tailwind CSS, and Node js.",
     image:'../images/easy.png',
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify-management.netlify.app/",
-  },
-  {
-    id: 0,
-    title: "Yours Article",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:'../images/yours.png',
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/rishavchanda/Trackify",
+    webapp: "https://easydocoments.com/",
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    title: "Yours Article",
+    date: "Sep 2024 - Jan 2025",
+    description: "Yours Article is a web application that allows users to read and write articles on a variety of topics. Users can create an account, write articles, and publish them for others to read. The application is built using React.js, Tailwind CSS, and Node js.",
+    image:'../images/yours.png',
+    tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    github: "",
+    webapp: "https://yoursarticle.com/",
   },
   {
-    id: 10,
+    id: 4,
+    title: "Learning Management System",
+    date: "Apr 2023 - Jun 2023",
+    description: "A LMS is a web application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, or learning and development programs. The application is built using React.js, Tailwind CSS, and Node js.",
+    image:'../images/yours.png',
+    tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 5,
     title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
+    date: "Nov 2024 - Dec 2024",
     description:
       "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
     tags: ["React Native", "JavaScript", "Axios"],
-    category: "web app",
+    category: "android app",
     github: "https://github.com/rishavchanda/Job-finder-App",
     webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-  {
     id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+    title: "Restate App",
+    date: "Dec 2024 - Jan 2025",
+    description:"Restate is a real estate app that allows users to search for properties, view property details, and contact real estate agents. Users can search for properties by location, price, and other criteria. The application is built using React Native, Axios, and Appwrite.",
     image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    category: "android app",
+    github: "",
+    webapp: "",
   },
   {
     id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+    title: "TechLaunch App",
+    date: "Feb 2025 - Mar 2025",
+    description:"TechLaunch is a tech news app that allows users to read the latest tech news from a variety of sources. Users can search for news by category, save articles for later reading, and share articles with others. The application is built using React Native, Axios, and NewsAPI.",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    category: "android app",
+    github: "",
+    webapp: "",
   },
+  {
+    id: 8,
+    title: "Pokedex",
+    date: "Jun 2023 - Jul 2023",
+    description:"TechLaunch is a tech news app that allows users to read the latest tech news from a variety of sources. Users can search for news by category, save articles for later reading, and share articles with others. The application is built using React Native, Axios, and NewsAPI.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    category: "web app",
+    github: "https://github.com/Chakravarti-Pranjal/Pokedex_project",
+    webapp: "",
+  },
+  {
+    id: 8,
+    title: "Todox",
+    date: "Jun 2023 - Jul 2023",
+    description:"",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    category: "web app",
+    github: "https://github.com/Chakravarti-Pranjal/reactJs_todoList?tab=readme-ov-file",
+    webapp: "https://todox-list.netlify.app/",
+  },
+  
   
 ];
 

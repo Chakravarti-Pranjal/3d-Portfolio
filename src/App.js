@@ -1,3 +1,4 @@
+//  disable-eslint
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";

@@ -110,7 +110,7 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
+        "https://api.web3forms.com/submit",
         "template_nv7k7mj",
         form.current,
         "SybVGsYS52j2TfLbi"
@@ -126,7 +126,7 @@ const Contact = () => {
       );
   };
   return (
-    <Container id="Education">
+    <Container id="Education" style={{ marginTop: "20px" }}>
       <Wrapper>
         <Title>Contact</Title>
         <Desc
@@ -136,7 +136,7 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit} action="https://api.web3forms.com/submit" method="POST">
+        <ContactForm onSubmit={handelSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
