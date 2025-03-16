@@ -105,7 +105,7 @@ const Projects = () => {
           apps. Here are some of my projects.
         </Desc>
 
-        <ToggleButtonGroup>
+         <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -131,9 +131,9 @@ const Projects = () => {
             active={toggle === "machine learning"}
             onClick={() => setToggle("machine learning")}
           >
-            MACHINE LEARNING
+            Static Web
           </ToggleButton>
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> 
 
         <CardContainer>
           {toggle === "all" &&

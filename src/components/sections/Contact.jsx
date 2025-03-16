@@ -110,7 +110,7 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
+        "https://api.web3forms.com/submit",
         "template_nv7k7mj",
         form.current,
         "SybVGsYS52j2TfLbi"
@@ -126,7 +126,7 @@ const Contact = () => {
       );
   };
   return (
-    <Container id="Education">
+    <Container id="Education" style={{ marginTop: "20px" }}>
       <Wrapper>
         <Title>Contact</Title>
         <Desc

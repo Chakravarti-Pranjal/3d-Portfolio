@@ -1,8 +1,8 @@
+//disable-eslint
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -46,7 +46,7 @@ const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
   @media (max-width: 960px) {
-    order: 2;
+    order: 1;
     margin-bottom: 30px;
     display: flex;
     gap: 6px;
@@ -60,7 +60,7 @@ const HeroRightContainer = styled.div`
   display: flex;
   justify-content: end;
   @media (max-width: 960px) {
-    order: 1;
+    order: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,7 +256,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={'/images/HeroImage.jpg'} alt="Pranjal Chakravarti" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
