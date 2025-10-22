@@ -1,4 +1,3 @@
-
 export const Bio = {
   name: "Pranjal Chakravarti",
   roles: [
@@ -65,7 +64,7 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
-       {
+      {
         name: "React Native",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
@@ -99,7 +98,6 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      
     ],
   },
   // {
@@ -251,16 +249,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQEBN70V7DGR5Q/company-logo_200_200/company-logo_200_200/0/1660029539402/pando_india_software_consultants_logo?e=2147483647&v=beta&t=XUpKWWNIbhQ3OYQAjrs5Lrz7TO4T0JiX93o60A7SbrA",
-    role: "Full Stack Web Developer",
-    company: "Pando India Software Consultants",
-    date: "July 2024 - Present",
-    desc: "At PISC, contributed to projects including Students Corners, Easy Docoments, and Yours Article, utilizing skills in React.js, TypeScript, REST API integration, and state management to enhance their functionality. Continuously improved performance and user experience while growing and advancing within the organization.",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQGJClBpT4RUuA/company-logo_200_200/company-logo_200_200/0/1738053200835?e=2147483647&v=beta&t=4HL0vKLJfWQWHb3qzNifOaE4JVyNTNrrfoURQ2cNMZI",
+    role: "Full Stack React Developer",
+    company: "Corrin Technologies Pvt Ltd",
+    date: "June 2025 - Oct 2025",
+    desc: "At Corrin Technologies Pvt. Ltd., I am working as a React Developer on Nexgeno8, an in-house Travel CRM platform designed to streamline travel agency operations. My role involves developing and enhancing key modules such as Cost Sheet, Quotation, and Operations, with a strong focus on improving user experience, performance, and workflow efficiency. I implement React.js best practices, build reusable components, and integrate RESTful APIs to ensure scalability and maintainability. Collaborating closely with backend and design teams, I contribute to delivering intuitive, responsive, and high-performing interfaces that enhance overall usability and productivity within the platform.",
     skills: [
       "ReactJS",
       "Redux",
-      "NodeJs",
-      "Express Js",
+      "MySQL",
       "Material UI",
       "HTML",
       "CSS",
@@ -270,68 +267,63 @@ export const experiences = [
   },
   {
     id: 1,
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQEBN70V7DGR5Q/company-logo_200_200/company-logo_200_200/0/1660029539402/pando_india_software_consultants_logo?e=2147483647&v=beta&t=XUpKWWNIbhQ3OYQAjrs5Lrz7TO4T0JiX93o60A7SbrA",
+    role: "Full Stack Web Developer",
+    company: "Pando India Software Consultants",
+    date: "July 2024 - June 2025",
+    desc: "At PISC, contributed to projects including Students Corners, Easy Docoments, and Yours Article, utilizing skills in React.js, TypeScript, REST API integration, and state management to enhance their functionality. Continuously improved performance and user experience while growing and advancing within the organization.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Express Js",
+      "MySQL",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    doc: "https://media.licdn.com/dms/image/v2/C4D0BAQEBN70V7DGR5Q/company-logo_200_200/company-logo_200_200/0/1660029539402/pando_india_software_consultants_logo?e=2147483647&v=beta&t=XUpKWWNIbhQ3OYQAjrs5Lrz7TO4T0JiX93o60A7SbrA",
+  },
+  {
+    id: 2,
     img: "https://media.licdn.com/dms/image/v2/D560BAQHWDYEWXkPfTg/company-logo_200_200/company-logo_200_200/0/1719047606096/octanetsolutions_logo?e=2147483647&v=beta&t=RFsKKYn-T-S9bMbG9po783ybKJfSTBvKq4zoJh6BtRk",
     role: "Web Developer Intern",
     company: "Octanet",
     date: "July 2023 - Aug 2023",
     desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JS",
-      "React Js",
-      "Tailwind",
-    ],
+    skills: ["HTML", "CSS", "JS", "React Js", "Tailwind"],
     doc: "https://media.licdn.com/dms/image/v2/D560BAQHWDYEWXkPfTg/company-logo_200_200/company-logo_200_200/0/1719047606096/octanetsolutions_logo?e=2147483647&v=beta&t=RFsKKYn-T-S9bMbG9po783ybKJfSTBvKq4zoJh6BtRk",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://media.licdn.com/dms/image/v2/C4D0BAQFheEbgt4_U_w/company-logo_100_100/company-logo_100_100/0/1661277231688/codeclause_logo?e=2147483647&v=beta&t=2BFwPF0bow7bSLpo3ouNsdfNU8rESKcUOZ857u2DON4",
     role: "Web Developer Intern",
     company: "Code Clause",
     date: "May 2023 - June 2023",
     desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JS",
-      "React Js",
-      "Tailwind",
-    ],
+    skills: ["HTML", "CSS", "JS", "React Js", "Tailwind"],
     doc: "https://media.licdn.com/dms/image/v2/C4D0BAQFheEbgt4_U_w/company-logo_100_100/company-logo_100_100/0/1661277231688/codeclause_logo?e=2147483647&v=beta&t=2BFwPF0bow7bSLpo3ouNsdfNU8rESKcUOZ857u2DON4",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://media.licdn.com/dms/image/v2/C4D0BAQExP1F1c0WD4w/company-logo_200_200/company-logo_200_200/0/1675191330164?e=2147483647&v=beta&t=TZUSg5Qh8kbvPn9MIk1UITqVp8CHDJgNDZsOIt4n0vI",
     role: "Web Developer",
     company: "Sync Interns",
     date: "May 2023 - June 2023",
     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JS",
-      "React Js",
-      "Tailwind",
-    ],
+    skills: ["HTML", "CSS", "JS", "React Js", "Tailwind"],
     doc: "https://media.licdn.com/dms/image/v2/C4D0BAQExP1F1c0WD4w/company-logo_200_200/company-logo_200_200/0/1675191330164?e=2147483647&v=beta&t=TZUSg5Qh8kbvPn9MIk1UITqVp8CHDJgNDZsOIt4n0vI",
   },
   {
-    id: 4,
+    id: 5,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyq7rG9Y9tkmDZLIzbnde7wd08wokqwaSAlA&s",
     role: "Web Developer Intern",
     company: "Oasis Infobyte",
     date: "Apr 2023 - May 2023",
     desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JS",
-      "React Js",
-      "Tailwind",
-    ],
+    skills: ["HTML", "CSS", "JS", "React Js", "Tailwind"],
   },
-  
 ];
 
 export const education = [
@@ -367,52 +359,66 @@ export const education = [
 export const projects = [
   {
     id: 1,
+    title: "NexGenov8",
+    date: "June 2025 - Oct 2025",
+    description:
+      "Nexgeno8 is an in-house Travel CRM platform developed by Corrin Technologies Pvt. Ltd., designed to streamline and automate operations for travel agencies and tour operators. The system provides an integrated solution for managing the entire travel workflow — from lead generation and quotation building to cost sheet management, bookings, and operations tracking.",
+    image: "",
+
+    category: "web app",
+    github: "",
+    webapp: "https://nexgenov8.com/",
+  },
+  {
+    id: 2,
     title: "Students Corners",
     date: "Jul 2024 - Dec 2024",
     description:
       "All in one Hub for Jobs, Blogs & Mock Tests. Best place to apply for Government Jobs using smart job list. Smart your skills by trending blogs and test series.",
-    image:
-      "https://studentscorners.com/assets/ads-DEzWR2Aa.jpg",
-    
+    image: "https://studentscorners.com/assets/ads-DEzWR2Aa.jpg",
+
     category: "web app",
     github: "",
     webapp: "https://studentscorners.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Easy Docoments",
     date: "Aug 2024 - Nov 2024",
-    description: "Easy Docoments is a web application that allows users to create, edit, and share documents online. Users can create documents from scratch or upload existing documents, and they can collaborate with others in real-time. The application is built using React.js, Tailwind CSS, and Node js.",
-    image:'../images/easy.png',
+    description:
+      "Easy Docoments is a web application that allows users to create, edit, and share documents online. Users can create documents from scratch or upload existing documents, and they can collaborate with others in real-time. The application is built using React.js, Tailwind CSS, and Node js.",
+    image: "../images/easy.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://easydocoments.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Yours Article",
     date: "Sep 2024 - Jan 2025",
-    description: "Yours Article is a web application that allows users to read and write articles on a variety of topics. Users can create an account, write articles, and publish them for others to read. The application is built using React.js, Tailwind CSS, and Node js.",
-    image:'../images/yours.png',
+    description:
+      "Yours Article is a web application that allows users to read and write articles on a variety of topics. Users can create an account, write articles, and publish them for others to read. The application is built using React.js, Tailwind CSS, and Node js.",
+    image: "../images/yours.png",
     tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "",
     webapp: "https://yoursarticle.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Learning Management System",
     date: "Apr 2023 - Jun 2023",
-    description: "A LMS is a web application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, or learning and development programs. The application is built using React.js, Tailwind CSS, and Node js.",
-    image:'../images/yours.png',
+    description:
+      "A LMS is a web application for the administration, documentation, tracking, reporting, automation, and delivery of educational courses, training programs, or learning and development programs. The application is built using React.js, Tailwind CSS, and Node js.",
+    image: "../images/yours.png",
     tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "",
     webapp: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Job Finding App",
     date: "Nov 2024 - Dec 2024",
     description:
@@ -425,54 +431,55 @@ export const projects = [
     webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   {
-    id: 6,
+    id: 7,
     title: "Restate App",
     date: "Dec 2024 - Jan 2025",
-    description:"Restate is a real estate app that allows users to search for properties, view property details, and contact real estate agents. Users can search for properties by location, price, and other criteria. The application is built using React Native, Axios, and Appwrite.",
+    description:
+      "Restate is a real estate app that allows users to search for properties, view property details, and contact real estate agents. Users can search for properties by location, price, and other criteria. The application is built using React Native, Axios, and Appwrite.",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
-    category: "android app",
-    github: "",
-    webapp: "",
-  },
-  {
-    id: 7,
-    title: "TechLaunch App",
-    date: "Feb 2025 - Mar 2025",
-    description:"TechLaunch is a tech news app that allows users to read the latest tech news from a variety of sources. Users can search for news by category, save articles for later reading, and share articles with others. The application is built using React Native, Axios, and NewsAPI.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    tags: ["React Native", "JavaScript", "Axios", "Appwrite"],
     category: "android app",
     github: "",
     webapp: "",
   },
   {
     id: 8,
-    title: "Pokedex",
-    date: "Jun 2023 - Jul 2023",
-    description:"TechLaunch is a tech news app that allows users to read the latest tech news from a variety of sources. Users can search for news by category, save articles for later reading, and share articles with others. The application is built using React Native, Axios, and NewsAPI.",
+    title: "TechLaunch App",
+    date: "Feb 2025 - Mar 2025",
+    description:
+      "TechLaunch is a tech news app that allows users to read the latest tech news from a variety of sources. Users can search for news by category, save articles for later reading, and share articles with others. The application is built using React Native, Axios, and NewsAPI.",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    tags: ["React Native", "JavaScript", "Axios", "Appwrite"],
+    category: "android app",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 9,
+    title: "Pokedex",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "TechLaunch is a tech news app that allows users to read the latest tech news from a variety of sources. Users can search for news by category, save articles for later reading, and share articles with others. The application is built using React Native, Axios, and NewsAPI.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+    tags: ["React Native", "JavaScript", "Axios", "Appwrite"],
     category: "web app",
     github: "https://github.com/Chakravarti-Pranjal/Pokedex_project",
     webapp: "",
   },
   {
-    id: 8,
+    id: 10,
     title: "Todox",
     date: "Jun 2023 - Jul 2023",
-    description:"",
+    description: "",
     image:
       "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios", 'Appwrite'],
+    tags: ["React Native", "JavaScript", "Axios", "Appwrite"],
     category: "web app",
-    github: "https://github.com/Chakravarti-Pranjal/reactJs_todoList?tab=readme-ov-file",
+    github:
+      "https://github.com/Chakravarti-Pranjal/reactJs_todoList?tab=readme-ov-file",
     webapp: "https://todox-list.netlify.app/",
   },
-  
-  
 ];
-

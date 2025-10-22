@@ -256,7 +256,10 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={'/images/HeroImage.jpg'} alt="Pranjal Chakravarti" />
+                  <Img
+                    src={"/images/HeroImage.png"}
+                    alt="Pranjal Chakravarti"
+                  />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
